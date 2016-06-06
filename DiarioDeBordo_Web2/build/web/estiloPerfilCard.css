@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+::selection {
+    background: rgba(152, 135, 224, 0.88);
+    color: #fff;
+}
+
+body, p, 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+#profile {
+    width: 20% !important;
+    display: block;
+    /* position: fixed; 
+    top: 64px;
+    right: 20px;*/
+     background-image: url("capaCapitulo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+    float: right;
+    padding-bottom: 38px;
+    /* max-width: 343px; */
+    height: 100% !important;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.07);
+    text-align: center;
+}
+
+
+#profile a{
+    margin-top: 5% !important;
+}
+
+ul{
+    margin-top: 10%;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    display: inline;
+    width: 5%;
+    height: 5%;
+    margin-right: 20%;
+}
+
+ul li a{
+    text-decoration: none;
+
+}
+
+#profile > img {
+
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+    width: 96px;
+    height: 96px;
+    border: 4px solid white;
+    border-radius: 96px;
+    -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+#profile h2, #profile p {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+#profile h2 {
+    margin-top: 0px;
+    padding: 0 38px 16px 38px;
+    color: #77767e;
+    font-size: 1.8em;
+}
+
+#profile p {
+    padding: 0 38px;
+    color: #9998a0;
+    font-size: 1.04em;
+    line-height: 1.44em;
+}
+
+#profile .btn {
+    display: inline-block;
+    margin: 30px 38px 0 38px;
+    padding: 14px 36px;
+    background: rgb(63,81,181);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 80ms, outline 100ms;
+}
+
+#profile .btn:hover {
+    background: rgb(77, 112, 184);   
+}
+
+#profile .btn:active {
+    border-bottom: none;
+    background: rgb(255, 173, 51);
+    -webkit-box-shadow: inset 0 -2px 0 #6c679d;
+    box-shadow: inset 0 -2px 0 #6c679d;
+}
+
+header{
+    /* position: fixed;
+     top: 0px;*/
+}

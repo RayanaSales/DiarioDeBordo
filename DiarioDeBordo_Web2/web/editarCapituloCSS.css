@@ -1,0 +1,71 @@
+body {
+    background: #eeeded !important;
+}
+
+#criarCap{
+    background-color: rgb(0, 0, 102) !important;
+    color: white !important;
+    margin: 0px !important;
+}
+
+.card {
+    background: #fff !important;
+    border-radius: 2px !important;
+    display: block !important;
+    float: left !important;    
+    /*margin: 1rem !important; */
+    margin-top: 5% !important;
+    margin-left: 30% !important;   
+    position: relative !important;
+    width: 500px !important;
+    height: 500px !important;
+    border-radius: 20px 20px 20px 20px !important;
+   
+}
+
+.card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;
+}
+
+.formulario
+{
+    width: auto;  
+    margin-top: 0px;
+       
+}
+
+form{
+    margin: 0px 5px 5px 5px; 
+    height: 100%;
+}
+
+form input
+{
+    width: 100% !important;    
+}
+
+.mdl-textfield
+{
+    width: 100% !important;
+}
+
+.mui-btn-primary, .mui-btn[data-mui-color="primary"]
+{
+    background-color: #2196F3 !important;
+    color: white !important;
+}
+
+.btn
+{
+    width: 30% !important;
+    margin-top: 3% !important;
+    margin-left: 35%;
+}
+
+input[type="text"]
+{
+    margin-top: -5px !important;
+    margin-bottom: -5px !important;
+}
+
+

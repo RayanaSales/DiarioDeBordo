@@ -1,0 +1,145 @@
+#titulo fieldset {
+    background: transparent;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    border: none;
+}
+
+#titulo p{
+    margin-top: -20px;
+}
+
+#containerDeEdicaoPrincipal fieldset {
+  background: transparent;
+  color: black;
+  border-radius: 50%;     
+  padding: 10px;
+  width: 100px;
+  position: fixed;
+  display: inline-block;
+  height: 95px;
+  left: 605px;
+  top: 90px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  
+}
+
+img{
+  border-radius: 50%; 
+  padding: 20px;
+  width: 120px;
+  position: fixed;
+  display: inline-block;
+  height: 115px;
+  left: 589px;
+  top: 72px;
+  
+}
+
+#containerDeEdicaoSecundario fieldset {
+    
+  background: white;
+  border-radius: 0px 0px 5px 5px;
+  padding: 15px;
+  width: 600px;
+  position: fixed;
+  display: inline-block;
+  height: 350px;
+  left: 365px;
+  top: 230px;
+  border: none;
+  
+
+}
+
+#campoDescricao fieldset{
+    
+  background: transparent;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  width: 600px;
+  position: fixed;
+  display: inline-block;
+  height: 100px;
+  left: 360px;
+  top: 280px;
+  border: none;
+ 
+}
+
+#campoDeCor fieldset {
+
+  background: #00008B;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  width: 600px;
+  position: fixed;
+  display: inline-block;
+  height: 135px;
+  left: 365px;
+  top: 50px;
+  border: none;
+  box-shadow: 10px 10px 10px #888888;
+  
+}
+
+p{
+    color: white;
+}
+
+#descricao{
+    
+    color: black;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: left;
+    
+}
+
+#salvarBotao {
+  background: #00008B;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+  margin-top: 210px;
+  padding: 12px 20px;
+}
+
+#salvarBotao:hover {
+  background: #00CD00;
+}
+
+#descartarBotao {
+  background: #00008B;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  right: 20px;
+  font-weight: bold;
+  margin-top: 210px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 12px 20px;
+}
+
+#descartarBotao:hover {
+  background: red;
+}
+
+
+#myFile{
+     
+ 
+  margin-top: 100px;
+  
+}
+
+ 
+
+
+
